@@ -1,4 +1,4 @@
-# define the functions needed, add, sub, mult, div
+# define the functions add, sub, mult, div
 def add(a, b):
     answer = a + b
     print (f"\n{a} + {b} = {answer}\n")
@@ -16,10 +16,10 @@ def div (a, b):
     print (f"\n{a} / {b} = {answer}\n")
 
 # Welcome user
-print("Welcome to \"you won't always have a calculator with you\" where you can do some two number task")
+print("Welcome to \"you won't always have a calculator with you\" where you can do some two number math task")
 
 
-# while loopto continue the program until the user wants to exit
+# while loop to continue the program until the user wants to exit
 while True:
     # print options to the user
     print("A. Addition")
